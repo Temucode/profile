@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: bold;
+  line-height: normal;
+  color: #575F7D;
+}
+
+.img-circle{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.img-circle:hover{
+
+}
+
+p{
+  text-align: justify;
+  color: #8A90A5;
+}
+
+button{
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+h2{
+  font-weight: bold;
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline li{
+  display: inline;
+  padding: 10px;
+}
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul{
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
